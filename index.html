@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASCII Art Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>ASCII Art Converter</h1>
+    <form id="upload-form" autocomplete="off">
+      <label for="file-input" id="file-label">Upload Image (PNG, JPG, GIF, ≤ 3MB):</label>
+      <input type="file" id="file-input" accept="image/png, image/jpeg, image/gif" aria-labelledby="file-label">
+      <div id="drop-area" tabindex="0" aria-label="Drag and drop image here">Drag & Drop Image Here</div>
+      <button type="button" id="convert-btn">Convert</button>
+    </form>
+    <p class="notice">
+        <strong>Tip:</strong> For best results, use a high-contrast photo with a clear subject and simple background.
+      </p>
+    <section id="output-section">
+      <label for="ascii-output">ASCII Art Output:</label>
+      <pre id="ascii-output" tabindex="0"></pre>
+      <button type="button" id="download-btn" disabled>Download ASCII Art</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
