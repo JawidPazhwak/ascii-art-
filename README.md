@@ -14,5 +14,5 @@ Convert your photos to ASCII art directly in your browser!
 - Max file size: 3MB
 - Only PNG, JPG, and GIF images are supported
 
-##License
+## License
 All Rights Reserved.
